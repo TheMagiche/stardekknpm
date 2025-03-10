@@ -4,16 +4,21 @@
   "description": "TypeScript package for Stardekk API endpoints",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/TheMagiche/stardekknpm.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMagiche/stardekknpm.git"
   },
   "author": "themagiche",
   "license": "MIT",
