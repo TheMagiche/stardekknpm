@@ -8,9 +8,6 @@
     "dist"
   ],
   "homepage": "https://github.com/TheMagiche/stardekknpm.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
