@@ -1,0 +1,28 @@
+{
+  "name": "stardekknpm",
+  "version": "1.0.0",
+  "description": "TypeScript package for Stardekk API endpoints",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "themagiche",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.17.24",
+    "@types/xmldom": "^0.1.34",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "xmldom": "^0.6.0"
+  }
+}
