@@ -25,6 +25,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "xmlbuilder2": "^3.1.1",
     "xmldom": "^0.6.0"
   }
 }
