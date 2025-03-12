@@ -9,7 +9,7 @@ import {
 
 // Example usage
 async function runExample() {
-  const authXML = authenticate('', '', '');
+  const authXML = authenticate('thaiwanconcepts10080', 'RV9N43MKCL', '10080');
   console.log(authXML);
   // Get Room Information
   // https://app.socialerco.com/version-test/api/1.1/obj
